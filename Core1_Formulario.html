@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="#" method="POST">
+        <h1> Registrate y unete a la comunidad!</h1>
+        <div>
+            <label for="nombre">
+                Nombre:
+            </label>
+            <input type="text" id="nombre" name="nombre" />
+            <br> </br>
+        </div>
+
+        <div>
+            <label for="apellido">
+                Apellido:
+            </label>
+            <input type="text" id="apellido" name="apellido" />
+            <br> </br>
+        </div>
+
+        <div>
+            <label for="email">
+                Email:
+            </label>
+            <input type="email" id="email" name="email" />
+            <br> </br>
+        </div>
+
+        <div>
+            <label for="contraseña">
+                Contraseña:
+            </label>
+            <input type="password" id="contraseña" name="contraseña" />
+            <br> </br>
+        </div>
+
+        <div>
+            <label for="contraseña">
+                Confirmar contraseña:
+            </label>
+            <input type="password" id="contraseña" name="contraseña" />
+            <br> </br>
+        </div>
+
+        <div>
+            <label for="fecha">
+                Fecha de nacimiento:
+            </label>
+            <input type="date" id="fecha" name="fecha" />
+            <br> </br>
+        </div>
+
+        <div>
+            <label for="genero">
+                Género:
+            </label>
+            <input type="radio" id="femenino" name="genero" value="Femenino" />
+            <label for="femenino"> Femenino </label>
+
+            <input type="radio" id="masculino" name="genero" value="Masculino" />
+            <label for="masculino"> Masculino </label>
+
+            <input type="radio" id="prefiero" name="genero" value="Prefiero" />
+            <label for="prefiero"> Prefiero no decirlo </label>
+            <br> </br>
+        </div>
+
+        <div>
+            <input type="checkbox" id="boletin" name="boletin" />
+            <label> Suscribete a nuestro boletin de noticias</label>
+            <br> </br>
+        </div>
+
+        <div> 
+            <label> Una descripcion de ti mismo:</label><br> </br>
+            <textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea>
+            <br> </br>
+        </div>
+
+        <div> 
+            <label> Selecciona tus intereses:</label><br> </br>
+        <select name="intereses" id="intereses"> 
+        <option value="Musica"> Musica</option>
+        <option value="Deportes"> Deportes</option>
+        <option value="Viajes">Viajes </option>
+        <option value="Tecnologia">Tecnologia </option>
+        <option value="Videojuegos">Videojuegos </option>
+        </select>
+            <br> </br>
+        </div>
+
+
+
+        <input type="submit" value="¡Registrate!">
+    </form>
+</body>
+
+</html>
