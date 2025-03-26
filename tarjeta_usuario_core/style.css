@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10%;
+    height: 700px;
+
+}
+
+.container {
+    width: 700px;
+    height: 580px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+}
+
+.header {
+    height: 100px;
+    background-color: #00bcd4;
+}
+
+.img_perfil {
+    margin-top: -50px;
+    margin-right: 600px;
+
+}
+
+img {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 50%;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 50px;
+}
+
+.perfil {
+    margin: 10px o;
+    padding: 20px;
+
+}
+
+.name {
+    margin-right: 400px;
+    padding: 10px;
+    color: #333333;
+    text-align: justify;
+    justify-content: left;
+    text-justify: inter-word;
+}
+
+.location {
+    font-size: 20px;
+    margin-right: 400px;
+    padding: 10px;
+    color: #666666;
+    text-align: justify;
+    justify-content: left;
+    text-justify: inter-word;
+}
+
+.job {
+    margin-right: 400px;
+    padding: 10px;
+    color: #6d6b6e;
+    text-align: justify;
+    justify-content: left;
+    text-justify: inter-word;
+}
+
+.desc {
+    color: #898d91;
+    text-align: justify;
+    justify-content: left;
+    text-justify: inter-word;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.edit {
+    font-size: 16px;
+    color: #41362f;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 1opx;
+    background-color: #f5f5f5;
+    border-width: 0px;
+    margin-right: 550px;
+}
