@@ -1,0 +1,239 @@
+/* */
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*----Barra navegadora----*/
+.nav {
+    background-color: #333333;
+    flex: 0 0 100%;
+    display: flex;
+    margin-bottom: 20px;
+    color: #fbfbfb;
+    height: 100px;
+    overflow: hidden;
+    
+}
+
+#nav-perfil{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 40px;
+   
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    display: inline;
+  }
+
+.pagina {
+    font-size: 30px;
+}
+
+.menu {
+    margin-left: 800px;
+    display: flex;
+    flex: 33% 33% 33%;
+}
+
+.inicio {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.miperfil {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.encontar_conexiones {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.boton {
+    margin-top: 10px;
+    color: #fbfbfb;
+    background-color: #00bcd4;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+/* Columna 1 y 2*/
+.row {
+    display: flex;
+}
+
+.columna {
+    flex: 50%;
+}
+
+/*----Tarjeta de perfil----*/
+.tarjeta {
+    display: flexbox;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container-tarjeta {
+    width: 640px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+}
+
+.header-tarjeta {
+    height: 50px;
+    background-color: aqua;
+}
+
+.img_perfil {
+    margin-top: -50px;
+    margin-right: 600px;
+
+}
+
+.img_perfil img{
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 50%;
+    border-color: #ffffff;
+    border-width: 2.5px;
+    border-style: solid;
+    margin-left: 25px;
+}
+
+.name {
+    margin-right: 400px;
+    padding: 5px;
+    color: #333333;
+    text-align: justify;
+    justify-content: left;
+    text-justify: inter-word;
+}
+
+.location {
+    font-size: 10px;
+    margin-right: 400px;
+    padding: 5px;
+    color: #666666;
+    text-align: justify;
+    justify-content: left;
+    text-justify: inter-word;
+}
+
+.job {
+    margin-right: 400px;
+    padding: 5px;
+    color: #6d6b6e;
+    text-align: justify;
+    justify-content: left;
+    text-justify: inter-word;
+}
+
+.desc {
+    color: #898d91;
+    text-align: justify;
+    justify-content: left;
+    text-justify: inter-word;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Educacion */
+.educacion {
+    display: flexbox;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.educacion-container {
+    width: 640px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    
+}
+.educacion-container p {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: justify;
+    justify-content: left;
+    text-justify: inter-word;
+    color: #333333;
+
+}
+
+/* Solicitudes */
+.solicitudes {
+    display: flexbox;
+    margin-top: 20px;
+
+}
+
+.solicitudes-container {
+    width: 640px;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+}
+
+.solicitudes img{
+    margin-right: 500px;
+    margin-top: 20px;
+    border-radius: 10%;
+    max-width: 50px;
+    max-height: 50px;
+    border-color: #00bcd4;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.p-name1{
+    margin-left: 200px;
+}
+/* Conexiones */
+.conexiones {
+    display: flexbox;
+    margin-top: 20px;
+}
+
+.conexiones-container {
+    width: 640px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+
+}
+.conexiones img {
+    max-width: 75px;
+    max-height: 75px;
+    border-radius: 50%;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 2px;
+    margin-right: 500px;
+}
