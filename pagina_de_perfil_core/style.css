@@ -14,10 +14,10 @@
     color: #fbfbfb;
     height: 100px;
     overflow: hidden;
-    
+
 }
 
-#nav-perfil{
+#nav-perfil {
     margin-top: 40px;
     margin-left: 20px;
     font-size: 25px;
@@ -26,15 +26,15 @@
 ul {
     list-style-type: none;
     margin-top: 40px;
-   
+
     padding: 0;
     overflow: hidden;
     background-color: #333;
-  }
+}
 
-  li {
+li {
     display: inline;
-  }
+}
 
 .pagina {
     font-size: 30px;
@@ -97,8 +97,8 @@ ul {
 }
 
 .header-tarjeta {
-    height: 50px;
-    background-color: aqua;
+    height: 100px;
+    background-color: #00bcd4;
 }
 
 .img_perfil {
@@ -107,7 +107,7 @@ ul {
 
 }
 
-.img_perfil img{
+.img_perfil img {
     max-height: 100px;
     max-width: 100px;
     border-radius: 50%;
@@ -115,6 +115,10 @@ ul {
     border-width: 2.5px;
     border-style: solid;
     margin-left: 25px;
+}
+
+.perfil p {
+    margin-left: 20px;
 }
 
 .name {
@@ -160,7 +164,8 @@ ul {
     margin-top: 20px;
     margin-left: 20px;
 }
-.Education{
+
+.Education {
     font-size: 20px;
     color: #333333;
     font-weight: bold;
@@ -174,8 +179,9 @@ ul {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     text-align: center;
-    
+
 }
+
 .educacion-container p {
     margin-top: 20px;
     margin-left: 20px;
@@ -203,7 +209,7 @@ ul {
     text-align: center;
 }
 
-.solicitudes img{
+.solicitudes img {
     margin-right: 500px;
     margin-top: 20px;
     border-radius: 10%;
@@ -214,9 +220,10 @@ ul {
     border-style: solid;
 }
 
-.p-name1{
+.p-name1 {
     margin-left: 200px;
 }
+
 /* Conexiones */
 .conexiones {
     display: flexbox;
@@ -233,6 +240,7 @@ ul {
     text-align: center;
 
 }
+
 .conexiones img {
     max-width: 75px;
     max-height: 75px;
