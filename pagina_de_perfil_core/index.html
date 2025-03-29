@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <title>Pagina de perfil</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <!------->
 
@@ -48,11 +49,11 @@
                     </div>
 
                     <div class="perfil">
-                        <p class="name"> Name Lastname</p>
-                        <p class="location">Location, Location </p>
-                        <p class="job"> Job title/Job title/Job title</p>
+                        <p id="name"> Name Lastname</p>
+                        <p id="location">Location, Location </p>
+                        <p id="job"> Job title/Job title/Job title</p>
 
-                        <p class="desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        <p id="desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
                             ut
@@ -62,7 +63,10 @@
                             dolore eu
                             fugiat nulla pariatur.</p>
 
-                        <button class="edit"> edit profile</button>
+                        <div id="boton">
+                            <button class="edit"> <i class="material-icons">settings</i> Edit profile</button>
+                        </div>
+
                     </div>
 
                 </div>
@@ -88,20 +92,25 @@
             <div class="solicitudes">
 
                 <div class="solicitudes-container">
+                    <p id="s-conexiones"> Solicitudes de Conexion (2)</p>
                     <!--- Persona 1---->
-                    <div class="persona1">
-                        <div class="img-persona1"> <img src="images/person1.jpg" alt="">
-                        </div>
+                    <div class="solicitud">
+                        <img src="images/person1.jpg" alt="">
                         <p class="p-name1"> Name Lastname </p>
-                        <div></div>
-                        <div></div>
+                        <div class="action">
+                            <button id="aceptar"> ✔ </button>
+                            <button id="rechazar"> ✖ </button>
+                        </div>
+
                     </div>
                     <!--- Persona 2---->
-                    <div class="persona2">
-                        <div class="img-persona2">
-                            <img src="images/person2.jpg" alt="">
-                        </div>
+                    <div class="solicitud">
+                        <img src="images/person2.jpg" alt="">
                         <p class="p-name1"> Name Lastname </p>
+                        <div class="action">
+                            <button id="aceptar"> ✔ </button>
+                            <button id="rechazar"> ✖ </button>
+                        </div>
                     </div>
 
                 </div>
@@ -123,41 +132,14 @@
                     </div>
 
                     <div class="personas">
-                        <div class="c-persona1">
-                            <p> </p>
-                            <div class="c-img1">
-                                <img src="images/person3.jpg" alt="">
-                            </div>
-
-                        </div>
-
-                        <div class="c-persona2">
-                            <p> </p>
-                            <div class="c-img2">
-                                <img src="images/person4.jpg" alt="">
-                            </div>
-                        </div>
-
-                        <div class="c-persona3">
-                            <p> </p>
-                            <div class="c-img3">
-                                <img src="images/person5.jpg" alt="">
-                            </div>
-                        </div>
-
-                        <div class="c-persona4">
-                            <p> </p>
-                            <div class="c-img4">
-                                <img src="images/person6.jpg" alt="">
-                            </div>
-                        </div>
-
-                        <div class="c-persona5">
-                            <p> </p>
-                            <div class="c-img5">
-                                <img src="images/person7.jpg" alt="">
-                            </div>
-                        </div>
+                        <ul>
+                            <li> <img src="images/person3.jpg" alt=""> Name Lastname </li>
+                            <li><img src="images/person4.jpg" alt=""> Name Lastname </li>
+                            <li><img src="images/person5.jpg" alt=""> Name Lastname </li>
+                            <li><img src="images/person6.jpg" alt=""> Name Lastname </li>
+                            <li><img src="images/person7.jpg" alt=""> Name Lastname </li>
+                            <li><img src="images/person8.jpg" alt=""> Name Lastname </li>
+                        </ul>
 
                     </div>
 

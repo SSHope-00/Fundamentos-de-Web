@@ -1,6 +1,6 @@
 /* */
 * {
-    font-family: Arial, sans-serif;
+    font-family: "Arial Narrow";
     box-sizing: border-box;
     margin: 0;
 }
@@ -23,7 +23,7 @@
     font-size: 25px;
 }
 
-ul {
+.menu ul {
     list-style-type: none;
     margin-top: 40px;
 
@@ -32,8 +32,11 @@ ul {
     background-color: #333;
 }
 
-li {
+.menu li {
+    margin-top: 40px;
     display: inline;
+    margin-right: 10px;
+    font-weight: bold;
 }
 
 .pagina {
@@ -62,11 +65,12 @@ li {
 }
 
 .boton {
-    margin-top: 10px;
+    margin-top: 30px;
     color: #fbfbfb;
     background-color: #00bcd4;
     padding: 10px;
     border-radius: 10%;
+    cursor: pointer;
 }
 
 /* Columna 1 y 2*/
@@ -121,7 +125,9 @@ li {
     margin-left: 20px;
 }
 
-.name {
+#name {
+    font-weight: bold;
+    font-family: Verdana;
     margin-right: 400px;
     padding: 5px;
     color: #333333;
@@ -130,8 +136,8 @@ li {
     text-justify: inter-word;
 }
 
-.location {
-    font-size: 10px;
+#location {
+
     margin-right: 400px;
     padding: 5px;
     color: #666666;
@@ -140,7 +146,7 @@ li {
     text-justify: inter-word;
 }
 
-.job {
+#job {
     margin-right: 400px;
     padding: 5px;
     color: #6d6b6e;
@@ -149,13 +155,30 @@ li {
     text-justify: inter-word;
 }
 
-.desc {
+#desc {
     color: #898d91;
     text-align: justify;
     justify-content: left;
     text-justify: inter-word;
     padding: 10px;
     margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.edit {
+    background-color: transparent;
+    color: #00bcd4;
+    border-style: none;
+    margin-right: 480px;
+    margin-bottom: 5px;
+}
+
+.material-icons {
+    color: #00bcd4;
+    align-items: center;
+}
+.edit{
+    cursor: pointer;
 }
 
 /* Educacion */
@@ -208,26 +231,58 @@ li {
     overflow: hidden;
     text-align: center;
 }
+/* Titulo */
+#s-conexiones {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.solicitud{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 15px;
+}
 
-.solicitudes img {
-    margin-right: 500px;
-    margin-top: 20px;
-    border-radius: 10%;
-    max-width: 50px;
-    max-height: 50px;
+.solicitud img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20%;
+    margin-right: 10px;
     border-color: #00bcd4;
-    border-width: 5px;
+    border-width: 2px;
     border-style: solid;
 }
 
-.p-name1 {
-    margin-left: 200px;
+/* Botones*/
+.action{
+    margin-left: 20px;
+}
+.action button{
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    border-color: red;
+    color: red;
+    border-width: 2px;
+    padding: 15px 20px;
+    margin-left: 15px;
+
+}
+#aceptar{
+    margin-right: 20px;
 }
 
 /* Conexiones */
 .conexiones {
     display: flexbox;
     margin-top: 20px;
+}
+
+.conexiones-titulo {
+    font-weight: bold;
+    font-size: larger;
 }
 
 .conexiones-container {
@@ -241,12 +296,28 @@ li {
 
 }
 
-.conexiones img {
-    max-width: 75px;
-    max-height: 75px;
+.personas img {
+    max-width: 55px;
+    max-height: 55px;
     border-radius: 50%;
     border-color: #333333;
     border-style: solid;
     border-width: 2px;
-    margin-right: 500px;
+    margin-right: 10px; 
+    
+}
+.personas{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.conexiones ul{
+    list-style: none;
+}
+.personas li{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
 }
